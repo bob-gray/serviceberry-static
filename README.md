@@ -1,10 +1,10 @@
 serviceberry-static
 ===================
 
-[![CircleCI](https://circleci.com/gh/bob-gray/serviceberry-cache-control.svg?style=svg)](https://circleci.com/gh/bob-gray/serviceberry-cache-control)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/7f550210acb7451260cd/test_coverage)](https://codeclimate.com/github/bob-gray/serviceberry-cache-control/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/7f550210acb7451260cd/maintainability)](https://codeclimate.com/github/bob-gray/serviceberry-cache-control/maintainability)
-[![npm version](https://badge.fury.io/js/serviceberry-cache-control.svg)](https://badge.fury.io/js/serviceberry-cache-control)
+[![CircleCI](https://circleci.com/gh/bob-gray/serviceberry-static.svg?style=svg)](https://circleci.com/gh/bob-gray/serviceberry-static)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2ca73a413e8e999a6b08/test_coverage)](https://codeclimate.com/github/bob-gray/serviceberry-static/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2ca73a413e8e999a6b08/maintainability)](https://codeclimate.com/github/bob-gray/serviceberry-static/maintainability)
+[![npm version](https://badge.fury.io/js/serviceberry-static.svg)](https://badge.fury.io/js/serviceberry-static)
 
 [Serviceberry](https://serviceberry.js.org) plugin for serving static files.
 

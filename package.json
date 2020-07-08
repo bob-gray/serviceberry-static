@@ -14,7 +14,7 @@
     "lint": "eslint src/plugin.js",
     "lint:spec": "eslint spec/**",
     "test": "jasmine",
-    "test-coverage": "nyc --include=plugin.js --reporter=lcov --reporter=text npm test"
+    "test-coverage": "nyc --include=src/plugin.js --reporter=lcov --reporter=text npm test"
   },
   "repository": {
     "type": "git",
