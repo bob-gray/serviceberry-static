@@ -47,10 +47,10 @@ class Static {
 		// this is a good candidate for the nullish operator ?? when Node.js lts is 14
 		// eslint-disable-next-line eqeqeq
 		if (basePath == null) {
-			basePath = request.getCurrentPath();
+			basePath = decodeURI(request.getCurrentPath());
 		}
 
-		return join(basePath, request.remainingPath);
+		return join(basePath, decodeURI(request.remainingPath));
 	}
 
 	// eslint-disable-next-line consistent-return

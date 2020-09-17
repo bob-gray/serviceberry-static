@@ -1,6 +1,6 @@
 {
   "name": "serviceberry-static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serviceberry plugin for serving static files",
   "main": "src/plugin.js",
   "files": [
@@ -32,16 +32,16 @@
   },
   "homepage": "https://github.com/bob-gray/serviceberry-static#readme",
   "peerDependencies": {
-    "serviceberry": "*"
+    "serviceberry": ">0.10.0"
   },
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "jasmine": "^3.5.0",
+    "eslint": "^7.9.0",
+    "jasmine": "^3.6.1",
     "jasmine-spec-reporter": "^5.0.2",
     "nyc": "^15.1.0"
   },
   "dependencies": {
     "mime-types": "^2.1.27",
-    "serviceberry-cache-control": "^0.2.2"
+    "serviceberry-cache-control": "^0.2.3"
   }
 }
