@@ -1,6 +1,6 @@
 {
   "name": "serviceberry-static",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Serviceberry plugin for serving static files",
   "main": "src/plugin.js",
   "files": [
