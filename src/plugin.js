@@ -45,7 +45,6 @@ class Static {
 		var basePath = this.path;
 
 		// this is a good candidate for the nullish operator ?? when Node.js lts is 14
-		// eslint-disable-next-line eqeqeq
 		if (basePath == null) {
 			basePath = decodeURI(request.getCurrentPath());
 		}

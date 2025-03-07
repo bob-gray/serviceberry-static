@@ -1,6 +1,6 @@
 {
   "name": "serviceberry-static",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Serviceberry plugin for serving static files",
   "main": "src/plugin.js",
   "files": [
@@ -10,7 +10,7 @@
     "test": "spec"
   },
   "scripts": {
-    "build": "npm run lint && npm run test-coverage",
+    "build": "npm run lint && npm run lint:spec && npm run test-coverage",
     "lint": "eslint src/plugin.js",
     "lint:spec": "eslint spec/**",
     "test": "jasmine",
@@ -35,10 +35,10 @@
     "serviceberry": ">0.10.0"
   },
   "devDependencies": {
-    "eslint": "^7.9.0",
-    "jasmine": "^3.6.1",
-    "jasmine-spec-reporter": "^5.0.2",
-    "nyc": "^15.1.0"
+    "eslint": "^9.21.0",
+    "jasmine": "^5.6.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nyc": "^17.1.0"
   },
   "dependencies": {
     "mime-types": "^2.1.27",
